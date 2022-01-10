@@ -1,0 +1,69 @@
+.login-form {
+  background-image: url("./abc.png");
+}
+h1{
+    position: absolute;
+    left: 65.62%;
+    right: 10.42%;
+    top: 23.98%;
+    bottom: 70.46%;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+.login-control{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 0px;
+    letter-spacing: 0.015em;
+    color: #373839;
+    border-radius: 5px;
+    
+}
+.login-user{
+    position: absolute;
+    left: 66.41%;
+    right: 26.82%;
+    top: 36.94%;
+    bottom: 60.93%;
+
+  
+}
+.login-password{
+    position: absolute;
+    left: 66.41%;
+    right: 26.82%;
+    top: 46.85%;
+    bottom: 51.02%;
+  
+}
+.Btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    left: 66.41%;
+    right: 11.2%;
+    top: 60.56%;
+    bottom: 34.63%;
+    background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
+    border-radius: 8px;
+}
+
+.btn1{
+    font-family: Mulish;
+    border: 0;
+    color: white;
+    background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
+}
+
+
