@@ -1,13 +1,13 @@
-import React from "react";
-import Login from './component/Login'
+import { Routes, Route, } from 'react-router-dom'
+import Login from './component/LoginForm/LoginForm'
 
-const App = () =>{
+function App() {
 
   return (
-
     <div className="App">
-      <Login />
+        <Login />
     </div>
+
   );
 }
 

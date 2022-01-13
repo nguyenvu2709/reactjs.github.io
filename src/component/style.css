@@ -1,7 +1,10 @@
-.login-form {
-  background-image: url("./abc.png");
+.login-form{
+    background-image: url("./img/bg.png");
+    width: 1920px;
+    height: 1080px;
 }
-h1{
+
+h3{
     position: absolute;
     left: 65.62%;
     right: 10.42%;
@@ -16,54 +19,95 @@ h1{
     letter-spacing: 0.015em;
     color: #373839;
 }
+
 .login-control{
-    font-family: Mulish;
+    padding-left: 42px;
+    font-family: Source Sans Pro;
     font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 0px;
-    letter-spacing: 0.015em;
-    color: #373839;
-    border-radius: 5px;
+    font-weight: 400;
+    font-size: 19px;
+    border: 1px solid mediumaquamarine;
+    outline: none;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    height: 30px;  
     
 }
-.login-user{
-    position: absolute;
-    left: 66.41%;
-    right: 26.82%;
-    top: 36.94%;
-    bottom: 60.93%;
 
-  
+
+.login-user{
+    
+    position: absolute;
+    left: 70.41%;
+    right: 22.82%;
+    top: 34.94%;
+    bottom: 60.93%;  
 }
+
+
 .login-password{
     position: absolute;
-    left: 66.41%;
-    right: 26.82%;
-    top: 46.85%;
+    left: 70.41%;
+    right: 22.82%;
+    top: 42.85%;
     bottom: 51.02%;
   
 }
-.Btn{
+.btn{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
     position: absolute;
-    left: 66.41%;
-    right: 11.2%;
-    top: 60.56%;
+    left: 70.41%;
+    right: 8.2%;
+    top: 59.56%;
     bottom: 34.63%;
     background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
     border-radius: 8px;
-}
-
-.btn1{
     font-family: Mulish;
     border: 0;
     color: white;
+    font-size: 20px;
     background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
 }
+.forgot-pass{
+    position: absolute;
+    left: 80.41%;
+    right: 9.82%;
+    top: 53.94%;
+    bottom: 60.93%; 
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #FF7506;
+    
+}
+
+
+.form-icon1{
+    position: absolute;
+    left: 71.70%;
+    right: 26.82%;
+    top: 44.15%;
+    bottom: 55.93%;
+    font-size: 15px;
+    color: black;
+}
+.form-icon2{
+    position: absolute;
+    left: 71.70%;
+    right: 26.82%;
+    top: 52.10%;
+    bottom: 51.02%;
+    font-size: 15px;
+    color: black;
+}
+
+
 
 
