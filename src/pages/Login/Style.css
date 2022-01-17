@@ -1,13 +1,8 @@
-.login-form{
-    background-image: url("./img/bg.png");
-    width: 1920px;
-    height: 1080px;
-}
 
 h3{
     position: absolute;
     left: 65.62%;
-    right: 10.42%;
+    right: 6.42%;
     top: 23.98%;
     bottom: 70.46%;
     font-family: Mulish;
@@ -18,61 +13,64 @@ h3{
     text-align: center;
     letter-spacing: 0.015em;
     color: #373839;
-}
-
-.login-control{
+  }
+  
+  .login-control{
     padding-left: 42px;
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 17px;
     border: 1px solid mediumaquamarine;
     outline: none;
     background-color: #f2f2f2;
     border-radius: 8px;
     height: 30px;  
     
-}
-
-
-.login-user{
+  }
+  
+  
+  .login-user{
     
     position: absolute;
     left: 70.41%;
-    right: 22.82%;
-    top: 34.94%;
+    right: 18.82%;
+    top: 39.94%;
     bottom: 60.93%;  
-}
-
-
-.login-password{
+  }
+  
+  
+  .login-password{
     position: absolute;
     left: 70.41%;
-    right: 22.82%;
-    top: 42.85%;
+    right: 18.82%;
+    top: 47.85%;
     bottom: 51.02%;
   
-}
-.btn{
+  }
+  .Btn{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
     position: absolute;
-    left: 70.41%;
-    right: 8.2%;
+    left: 69.41%;
+    right: 10.2%;
     top: 59.56%;
-    bottom: 34.63%;
+    bottom: 35.63%;
     background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
     border-radius: 8px;
+  }
+  button{ 
+    outline: none;
     font-family: Mulish;
     border: 0;
-    color: white;
+    color: #f2f2f2;
     font-size: 20px;
     background: linear-gradient(270deg, #FF5400 0%, #F17F21 80.56%);
-}
-.forgot-pass{
+  }
+  .forgot-pass{
     position: absolute;
     left: 80.41%;
     right: 9.82%;
@@ -86,28 +84,38 @@ h3{
     text-align: center;
     color: #FF7506;
     
-}
-
-
-.form-icon1{
+  }
+  
+  
+  .form-icon1{
     position: absolute;
-    left: 71.70%;
-    right: 26.82%;
-    top: 44.15%;
-    bottom: 55.93%;
+    left: 71.25%;
+    top: 43.93%;
     font-size: 15px;
-    color: black;
-}
-.form-icon2{
+    color: silver;
+  }
+  .form-icon2{
     position: absolute;
-    left: 71.70%;
-    right: 26.82%;
-    top: 52.10%;
-    bottom: 51.02%;
-    font-size: 15px;
-    color: black;
-}
-
-
-
-
+    top: 56.95%;
+    left: 81.90%;
+    font-size: 13px;
+    color: #FF5400;
+  }
+  .form-icon3{
+    position: absolute;
+    left: 5.25%;
+    top: 320.93%;
+  }
+  .form-option{
+    position: absolute;
+    top: 56.55%;
+    left: 82.70%;
+    font-size: 13px;
+    color: #FF5400;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  

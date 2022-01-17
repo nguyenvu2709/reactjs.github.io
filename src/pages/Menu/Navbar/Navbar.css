@@ -1,0 +1,114 @@
+.logo{
+    position: absolute;
+    left: 15%;
+    right: 0%;
+    top: 3%;
+    bottom: 0%; 
+}
+.navbar-content{
+    position: absolute;
+    height: 1080px;
+    width: 112px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    left: 0px;
+    top: 0%;
+    bottom: 0%;
+    z-index: 51;
+    background: linear-gradient(359.43deg, #FF5400 2.1%, #F17F21 98.52%);
+    box-shadow: 4px 4px 15px rgba(122, 176, 225, 0.25);
+}
+.navbar-icon1{
+    position: absolute;
+    left: 31.03%;
+    right: 8.33%;
+    top: 26.76%;
+    bottom: 10.41%;
+}   
+.navbar-icon2{
+    position: absolute;
+    left: 31.03%;
+    right: 8.33%;
+    top: 36.76%;
+    bottom: 10.41%;
+}
+.sidebar{
+    position: absolute;
+    height: 1080px;
+    width: 397px;
+    border-radius: 0px;
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 4px 4px 10px rgba(133, 178, 220, 0.25);
+    transform: translateX(-100%); 
+    transition: all linear 0.2s;
+    top: 0;
+    left: 112px;
+    z-index:50;
+}
+.navbar:hover .sidebar{
+    transform: translateX(0);
+}
+.sidebarlist{
+    list-style: none;
+    padding-top: 211px;
+    padding-left: 0px;
+    margin: 0;
+}
+.navbar-icon.navbar-icon--active{
+    position: absolute;
+    left: 31.03%;
+    right: 73.82%;
+    top: 16.76%;
+    bottom: 75.83%;
+    opacity: 1;
+    border-radius: 16px;
+    background: #FFF9F4;
+}
+.sidebar-title{
+    position: relative;
+    color: #373839;
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    font-weight: 700;
+    cursor: pointer;
+}
+.title-content{
+    position: absolute;
+    width: 140px;
+    height: 23px;
+    right: 78px;
+    top: 211px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Mulish;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    color: #FF7506;
+}
+.title-item{
+    position: absolute;
+    width: 131px;
+    height: 20px;
+    right: 88px;
+    top: 14px;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #373839;
+}
+.title-item.title-item--active{
+    position: absolute;
+    background: #373839;
+
+}
+
