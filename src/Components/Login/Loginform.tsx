@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import { FaUserCircle } from 'react-icons/fa';
 import bg from '/Users/Win 10/project-tt1/src/assets/bg.png';
@@ -46,7 +46,7 @@ return (
             </div>
 
             <div className='pass'>
-            <Link className='form-option' to="/loginforget">
+            <Link className='form-option' to="/forget">
               <span>Quên mật khẩu?</span>
             </Link>
             </div>

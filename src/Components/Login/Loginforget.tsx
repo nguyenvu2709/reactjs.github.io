@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import bg from '/Users/Win 10/project-tt1/src/assets/bg.png';
 import { FaUserCircle, FaChevronLeft} from 'react-icons/fa';
